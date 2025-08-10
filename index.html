@@ -91,155 +91,122 @@
     <!-- Massage Services -->
 
 
-    <section id="services" class="bg-light">
-      <div class="container p-5">
-        <h2 class="text-center p-5">Massage Services</h2>
-        <div class="display-block customized text-center">
-          <h4 class="text-light p-lg-5 p-3">Body Elemental specializes in creating a customized massage that serves your needs using the following modalities:</h4>
-        </div>
-        <div class="row gx-5 text-center">
-          <div class="col-lg-4 col-md-6 py-5">
-            <div class="card border-secondary">
-              <img src="img/swedish.jpeg" class="card-img-top" alt="...">
-                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#massageSwedish">
-                  <div class="card-body">
-                    <h4>Swedish</h4>
-                  </div>
-                </button>
-            </div>
-            <div class="modal fade" id="massageSwedish" tabindex="-1" aria-labelledby="swedish" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="swedish">Swedish Massage</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <p>Swedish massage involves the use of kneading, stroking and tapping by the practitioner to increase the oxygen flow in the blood and release toxins from the muscles. Swedish massage techniques can make your body feel relaxed and energized at the same time by kneading tense muscles and improving circulation.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <section id="services" class="p-5" style="background: no-repeat center / cover url(img/deep_tissue.jpg) slategray; background-blend-mode: multiply;">
+      <div class="container text-center">
+        <h2 class="text-light p-3">Massage Services</h2>
+        <h3 class="text-light p-lg-5 p-2">Body Elemental specializes in creating a customized massage that serves your needs using the following modalities:</h4>
+        <div class="row py-5">
+
+          <!-- Swedish Massage -->
+          <div class="col-lg-4 col-md-6 col-sm-12 m-auto p-3">
+              <h4 type="button" class="rounded-pill border border-light text-light px-5 py-3" data-bs-toggle="modal" data-bs-target="#massageSwedish">Swedish</h4>
           </div>
-          <div class="col-lg-4 col-md-6 py-5">
-            <div class="card border-secondary">
-              <img src="img/deep_tissue.jpg" class="card-img-top" alt="...">
-                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#massageDeepTissue">
-                  <div class="card-body">
-                    <h4>Deep Tissue</h4>
-                  </div>
-                </button>
-            </div>
-            <div class="modal fade" id="massageDeepTissue" tabindex="-1" aria-labelledby="deepTissue" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="deepTissue">Deep Tissue</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <p>Deep tissue massage is ideal for breaking up scar tissue and breaking down muscle knots that can cause pain and inflammation. If you suffer from chronic aches and pains, deep tissue massage can help. The practitioner may use fingertips, knuckles, hands and elbows to release tension or realign tissue fibers, and you may be asked to breathe deeply as he or she works on particularly tense areas. It is normal to feel some stiffness or soreness after a deep tissue massage, but this usually subsides within 24 hours.</p>
-                  </div>
+          <div class="modal fade" id="massageSwedish" tabindex="-1" aria-labelledby="swedish"     aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="swedish">Swedish Massage</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 py-5">
-            <div class="card border-secondary">
-              <img src="img/sports_massage.jpg" class="card-img-top" alt="...">
-                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#massageSports">
-                  <div class="card-body">
-                    <h4>Sports</h4>
-                  </div>
-                </button>
-            </div>
-            <div class="modal fade" id="massageSports" tabindex="-1" aria-labelledby="sports" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="sports">Sports Massage</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <p>Sports Massage focuses on injuries and imbalances that accompany the repetitive motion of a sports-related or work-related activity. The practitioner uses techniques similar to Swedish massage to speed up the healing process of muscle pulls and strains, or to keep these regularly- worked muscles from tensing up and causing injuries.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-         <div class="col-lg-4 col-md-6 py-5">
-            <div class="card border-secondary">
-              <img src="img/medical.jpg" class="card-img-top" alt="...">
-                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#massageMedical">
-                  <div class="card-body">
-                    <h4>Medical</h4>
-                  </div>
-                </button>
-            </div>
-            <div class="modal fade" id="massageMedical" tabindex="-1" aria-labelledby="medical" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="medical">Medical Massage</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <p>Unlike a traditional spa massage focused on relaxation, medical massage therapy is a specialized, outcome-based treatment designed to address specific health concerns and promote lasting relief and healing. Body Elemental will work with you to develop a personalized treatment plan incorporating techniques like deep tissue massage, trigger point therapy, and myofascial release, all aimed at reducing pain, inflammation, and improving your overall well-being. If you're seeking a targeted approach to managing chronic pain or recovering from an injury, consider exploring the transformative benefits of medical massage therapy.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 py-5">
-            <div class="card border-secondary">
-              <img src="img/esalen.jpg" class="card-img-top" alt="...">
-                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#massageEsalen">
-                  <div class="card-body">
-                    <h4>Esalen</h4>
-                  </div>
-                </button>
-            </div>
-            <div class="modal fade" id="massageEsalen" tabindex="-1" aria-labelledby="esalen" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="esalen">Esalen</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <p>Esalen massage is known for its long strokes that target the muscles and circulatory system combined with the classical techniques of Swedish massage. The primary focus of Esalen massage is on touch rather than technique. Esalen massage practitioners are expected to be able to tap into their clients’ cues, both physical and non-physical, so that he or she can identify where the client’s body is injured, or where there is an energy blockage without the client verbally expressing it.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 py-5">
-            <div class="card border-secondary">
-              <img src="img/cranial-sacral.jpg" class="card-img-top" alt="...">
-                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#massageCranial">
-                  <div class="card-body">
-                    <h4>Cranial-Sacral</h4>
-                  </div>
-                </button>
-            </div>
-            <div class="modal fade" id="massageCranial" tabindex="-1" aria-labelledby="cranial" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="cranial">Cranial-Sacral</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <p>The focus of cranial sacral massage is the central nervous system. The practitioner gently manipulates the head and neck of the client. This encourages the cerebrospinal fluid to flow more freely, and decreases structural strain on the CNS. Ultimately, cranial sacral Massage helps improve your ability to heal and allows your body to work at optimum levels.</p>
-                  </div>
+                <div class="modal-body">
+                  <p>Swedish massage involves the use of kneading, stroking and tapping by the practitioner to increase the oxygen flow in the blood and release toxins from the muscles. Swedish massage techniques can make your body feel relaxed and energized at the same time by kneading tense muscles and improving circulation.</p>
                 </div>
               </div>
             </div>
           </div>
 
+          <!-- Deep Tissue -->
+          <div class="col-lg-4 col-md-6 col-sm-12 m-auto p-3">
+              <h4 type="button" class="rounded-pill border border-light text-light px-5 py-3" data-bs-toggle="modal" data-bs-target="#massageDeepTissue">Deep Tissue</h4>
+          </div>
+          <div class="modal fade" id="massageDeepTissue" tabindex="-1" aria-labelledby="deepTissue" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="deepTissue">Deep Tissue</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Deep tissue massage is ideal for breaking up scar tissue and breaking down muscle knots that can cause pain and inflammation. If you suffer from chronic aches and pains, deep tissue massage can help. The practitioner may use fingertips, knuckles, hands and elbows to release tension or realign tissue fibers, and you may be asked to breathe deeply as he or she works on particularly tense areas. It is normal to feel some stiffness or soreness after a deep tissue massage, but this usually subsides within 24 hours.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sports Massage -->
+          <div class="col-lg-4 col-md-6 col-sm-12 m-auto p-3">
+              <h4 type="button" class="rounded-pill border border-light text-light px-5 py-3" data-bs-toggle="modal" data-bs-target="#massageSports">Sports</h4>
+          </div>
+          <div class="modal fade" id="massageSports" tabindex="-1" aria-labelledby="sports" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="sports">Sports Massage</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Sports Massage focuses on injuries and imbalances that accompany the repetitive motion of a sports-related or work-related activity. The practitioner uses techniques similar to Swedish massage to speed up the healing process of muscle pulls and strains, or to keep these regularly- worked muscles from tensing up and causing injuries.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Medical Massage -->
+          <div class="col-lg-4 col-md-6 col-sm-12 m-auto p-3">
+              <h4 type="button" class="rounded-pill border border-light text-light px-5 py-3" data-bs-toggle="modal" data-bs-target="#massageMedical">Medical</h4>
+          </div>
+          <div class="modal fade" id="massageMedical" tabindex="-1" aria-labelledby="medical" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="medical">Medical Massage</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Unlike a traditional spa massage focused on relaxation, medical massage therapy is a specialized, outcome-based treatment designed to address specific health concerns and promote lasting relief and healing. Body Elemental will work with you to develop a personalized treatment plan incorporating techniques like deep tissue massage, trigger point therapy, and myofascial release, all aimed at reducing pain, inflammation, and improving your overall well-being. If you're seeking a targeted approach to managing chronic pain or recovering from an injury, consider exploring the transformative benefits of medical massage therapy.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Esalen -->
+          <div class="col-lg-4 col-md-6 col-sm-12 m-auto p-3">
+              <h4 type="button" class="rounded-pill border border-light text-light px-5 py-3" data-bs-toggle="modal" data-bs-target="#massageEsalen">Esalen</h4>
+          </div>
+          <div class="modal fade" id="massageEsalen" tabindex="-1" aria-labelledby="esalen" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="esalen">Esalen</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Esalen massage is known for its long strokes that target the muscles and circulatory system combined with the classical techniques of Swedish massage. The primary focus of Esalen massage is on touch rather than technique. Esalen massage practitioners are expected to be able to tap into their clients’ cues, both physical and non-physical, so that he or she can identify where the client’s body is injured, or where there is an energy blockage without the client verbally expressing it.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 m-auto p-3">
+              <h4 type="button" class="rounded-pill border border-light text-light px-5 py-3" data-bs-toggle="modal" data-bs-target="#massageCranial">Cranial-Sacral</h4>
+          </div>
+          <div class="modal fade" id="massageCranial" tabindex="-1" aria-labelledby="cranial" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="cranial">Cranial-Sacral</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>The focus of cranial sacral massage is the central nervous system. The practitioner gently manipulates the head and neck of the client. This encourages the cerebrospinal fluid to flow more freely, and decreases structural strain on the CNS. Ultimately, cranial sacral Massage helps improve your ability to heal and allows your body to work at optimum levels.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    
   
     <!-- Massage Rates -->
     <section id="rates">
