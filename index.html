@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Body Elemental</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="#"> 
+            <img src="./img/be_logo5.png" alt="" width="40" height="40" class="d-inline-block align-text-center">  Body Elemental
+          </a>
+          <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#rates">Massage Rates</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Scheduling
+              </a>
+              <ul class="dropdown-menu" >
+                <li><a class="dropdown-item" href="/scheduling.html">Scheduling</a></li>
+                <li><a class="dropdown-item" href="/scheduling.html#cancellation">Cancellation Policy</a></li>
+                <li><a class="dropdown-item" href="/scheduling.html#forms">Client Forms</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./reviews.html">Reviews</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+
+    <section class="bg-dark text-light p-lg-0 text-center text-sm-start showcase">
+      <div class="container">
+        <div class="header p-3">
+          <h1>Feel Your Best With <span class="text-info">Expert Massage Therapy</span></h1>
+        </div>
+        <div class="subheader p-3">
+          <h3 class="lead">Customized Massage in Phoenix, Arizona</h3>
+          <h3 class="lead">Call or Text <a class="text-warning" href="tel:+1-913-269-3982" style="text-decoration: none">(913) 269-3982</a> to book an appointment</h3>
+        </div>
+        <div class="pinnacle">
+          <img src="./img/pinnacle2.jpg" alt="" class="img-fluid" >
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Click to call or text -->
+    
+    <div class="d-md-none fixed-bottom bg-dark text-center p-2">
+      <span class="px-2">
+        <a class="btn btn-outline-warning btn-dark" href="tel:+1-913-269-3982" role="button">
+          <i class="h3 bi bi-telephone"></i>
+        </a>
+      </span>
+      <span class="px-2 text-warning lead">Call or Text to Book
+      </span>
+      <span class="px-2">
+        <a class="btn btn-outline-warning btn-dark" href="sms:+1-913-269-3982&body=Hi. My name is" role="button">
+          <i class="h3 bi bi-chat-fill"></i>
+        </a>
+      </span>
+    </div>
+    
+    
+    
+    <!-- Massage Services -->
+
+
+    <section id="services" class="bg-light">
+      <div class="container p-5">
+        <h2 class="text-center p-5">Massage Services</h2>
+        <div class="display-block customized text-center">
+          <h4 class="text-light p-lg-5 p-3">Body Elemental specializes in creating a customized massage that serves your needs using the following modalities:</h4>
+        </div>
+        <div class="row gx-5 text-center">
+          <div class="col-lg-4 col-md-6 py-5">
+            <div class="card border-secondary">
+              <img src="img/swedish.jpeg" class="card-img-top" alt="...">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#massageSwedish">
+                  <div class="card-body">
+                    <h4>Swedish</h4>
+                  </div>
+                </button>
+            </div>
+            <div class="modal fade" id="massageSwedish" tabindex="-1" aria-labelledby="swedish" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="swedish">Swedish Massage</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Swedish massage involves the use of kneading, stroking and tapping by the practitioner to increase the oxygen flow in the blood and release toxins from the muscles. Swedish massage techniques can make your body feel relaxed and energized at the same time by kneading tense muscles and improving circulation.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 py-5">
+            <div class="card border-secondary">
+              <img src="img/deep_tissue.jpg" class="card-img-top" alt="...">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#massageDeepTissue">
+                  <div class="card-body">
+                    <h4>Deep Tissue</h4>
+                  </div>
+                </button>
+            </div>
+            <div class="modal fade" id="massageDeepTissue" tabindex="-1" aria-labelledby="deepTissue" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="deepTissue">Deep Tissue</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Deep tissue massage is ideal for breaking up scar tissue and breaking down muscle knots that can cause pain and inflammation. If you suffer from chronic aches and pains, deep tissue massage can help. The practitioner may use fingertips, knuckles, hands and elbows to release tension or realign tissue fibers, and you may be asked to breathe deeply as he or she works on particularly tense areas. It is normal to feel some stiffness or soreness after a deep tissue massage, but this usually subsides within 24 hours.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 py-5">
+            <div class="card border-secondary">
+              <img src="img/sports_massage.jpg" class="card-img-top" alt="...">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#massageSports">
+                  <div class="card-body">
+                    <h4>Sports</h4>
+                  </div>
+                </button>
+            </div>
+            <div class="modal fade" id="massageSports" tabindex="-1" aria-labelledby="sports" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="sports">Sports Massage</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Sports Massage focuses on injuries and imbalances that accompany the repetitive motion of a sports-related or work-related activity. The practitioner uses techniques similar to Swedish massage to speed up the healing process of muscle pulls and strains, or to keep these regularly- worked muscles from tensing up and causing injuries.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         <div class="col-lg-4 col-md-6 py-5">
+            <div class="card border-secondary">
+              <img src="img/medical.jpg" class="card-img-top" alt="...">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#massageMedical">
+                  <div class="card-body">
+                    <h4>Medical</h4>
+                  </div>
+                </button>
+            </div>
+            <div class="modal fade" id="massageMedical" tabindex="-1" aria-labelledby="medical" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="medical">Medical Massage</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Unlike a traditional spa massage focused on relaxation, medical massage therapy is a specialized, outcome-based treatment designed to address specific health concerns and promote lasting relief and healing. Body Elemental will work with you to develop a personalized treatment plan incorporating techniques like deep tissue massage, trigger point therapy, and myofascial release, all aimed at reducing pain, inflammation, and improving your overall well-being. If you're seeking a targeted approach to managing chronic pain or recovering from an injury, consider exploring the transformative benefits of medical massage therapy.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 py-5">
+            <div class="card border-secondary">
+              <img src="img/esalen.jpg" class="card-img-top" alt="...">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#massageEsalen">
+                  <div class="card-body">
+                    <h4>Esalen</h4>
+                  </div>
+                </button>
+            </div>
+            <div class="modal fade" id="massageEsalen" tabindex="-1" aria-labelledby="esalen" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="esalen">Esalen</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Esalen massage is known for its long strokes that target the muscles and circulatory system combined with the classical techniques of Swedish massage. The primary focus of Esalen massage is on touch rather than technique. Esalen massage practitioners are expected to be able to tap into their clients’ cues, both physical and non-physical, so that he or she can identify where the client’s body is injured, or where there is an energy blockage without the client verbally expressing it.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 py-5">
+            <div class="card border-secondary">
+              <img src="img/cranial-sacral.jpg" class="card-img-top" alt="...">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#massageCranial">
+                  <div class="card-body">
+                    <h4>Cranial-Sacral</h4>
+                  </div>
+                </button>
+            </div>
+            <div class="modal fade" id="massageCranial" tabindex="-1" aria-labelledby="cranial" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="cranial">Cranial-Sacral</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>The focus of cranial sacral massage is the central nervous system. The practitioner gently manipulates the head and neck of the client. This encourages the cerebrospinal fluid to flow more freely, and decreases structural strain on the CNS. Ultimately, cranial sacral Massage helps improve your ability to heal and allows your body to work at optimum levels.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  
+    <!-- Massage Rates -->
+    <section id="rates">
+      <div class="container p-5">
+        <div class="text-center">
+          <img src="./img/be_logo4-Logo.png" alt="" width="300" height="300">
+          <h2>In-Studio Massage Rates</h2>
+          <div class="row py-5">
+            <div class="col-lg-4 col-md-6 m-auto py-4">
+              <div class="shape bg-info d-flex align-items-center">
+                <p class="lead text-dark mx-auto">$90 / 60 minutes</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 m-auto py-4">
+              <div class="shape bg-info d-flex align-items-center">
+                <p class="lead text-dark mx-auto">$120 / 90 minutes</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 m-auto py-4">
+              <div class="shape bg-info d-flex align-items-center">
+                <p class="lead text-dark mx-auto">$160 / 120 minutes</p>
+              </div>
+            </div>
+          </div>
+          <h3>In-Home Rates - $20 Additional Charge</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions -->
+    <section id="questions" class="p-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+
+          <!-- Item one -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
+                Where will my massage or bodywork session take place?
+              </button>
+            </h2>
+            <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+              <div class="accordion-body">
+                Your massage or bodywork session will take place in a warm, comfortable, quiet room. Soft music may be played to help you relax. You will lie on a massage table especially designed for your comfort.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item two -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+                Must I be completely undressed?
+              </button>
+            </h2>
+            <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+              <div class="accordion-body">
+                Most massage and bodywork techniques are traditionally performed with the client unclothed; however, it is entirely up to you what you want to wear. You should undress to your level of comfort. You will be properly draped during the entire session.If you like Medical Massage can be done fully clothed if wearing loose clothing.
+              </div>
+            </div>
+          </div>
+          
+          <!-- Item three -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+                Will the practitioner be present when I disrobe?
+              </button>
+            </h2>
+            <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+              <div class="accordion-body">
+                The practitioner will leave the room while you undress, relax onto the table, and cover yourself with a clean sheet or towel.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item four -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four">
+                Will I be covered during the session?
+              </button>
+            </h2>
+            <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+              <div class="accordion-body">
+                You will be properly draped at all times to keep you warm and comfortable. Only the area being worked on will be exposed.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item five -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-five">
+                What parts of my body will be massaged?
+              </button>
+            </h2>
+            <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+              <div class="accordion-body">
+                A typical full-body session will include work on your back, glutes, arms, legs, feet, hands, head, neck, and shoulders.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item Six -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-six">
+                What will the massage or bodywork feel like?
+              </button>
+            </h2>
+            <div id="question-six" class="accordion-collapse collapse" data-bs-parent="#questions">
+              <div class="accordion-body">
+                A relaxing Swedish massage is often a baseline for clients. In a general Swedish massage, your session may start with broad, flowing strokes that will help calm your nervous system and relax exterior muscle tension. As your body becomes relaxed, pressure will gradually be increased to relax specific areas and relieve areas of muscular tension. Often, a light oil or lotion is used to allow your muscles to be massaged without causing excessive friction to the skin. The oil also helps hydrate your skin. You should communicate immediately if you feel any discomfort so that another approach may be taken. Always let the therapist know if anything makes you uncomfortable.  Massage and bodywork are most effective when your body is not resisting.
+              </div>
+            </div>
+          </div>
+
+           <!-- Item Seven -->
+           <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-seven">
+                Are there different kinds of massage and bodywork?
+              </button>
+            </h2>
+            <div id="question-seven" class="accordion-collapse collapse" data-bs-parent="#questions">
+              <div class="accordion-body">
+                There are numerous types of massage and bodywork; various techniques utilize different strokes, including basic rubbing strokes, rocking movement, posture and movement re-education, application of pressure to specific points, and more. We can discuss which methods may be most appropriate for you.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item eight -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-eight">
+                What should I do during the massage or bodywork session?
+              </button>
+            </h2>
+            <div id="question-eight" class="accordion-collapse collapse" data-bs-parent="#questions">
+              <div class="accordion-body">
+                Prior to the massage, feel free to ask the practitioner any questions about the technique or the upcoming session. During the massage, make yourself comfortable. The practitioner will either gently move you or tell you what is needed throughout the session (such as lifting your arm). Many people just close their eyes and completely relax, communicating if/when they need more or less pressure, another blanket, or anything else relevant to the session. If you have any questions regarding the session or about the particular technique you are receiving, feel free to ask. And always communicate if anything makes you uncomfortable. 
+              </div>
+            </div>
+          </div>
+
+           <!-- Item nine -->
+           <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-nine">
+                How will I feel after the massage or bodywork session?
+              </button>
+            </h2>
+            <div id="question-nine" class="accordion-collapse collapse" data-bs-parent="#questions">
+              <div class="accordion-body">
+                Most people feel very relaxed. Some experience freedom from long-term aches and pains developed from tension or repetitive activity. After an initial period of feeling slowed down, people often experience increased energy, heightened awareness, and greater productivity which can last for days. Light headedness upon sitting up afterwards is common so take your time.
+              </div>
+            </div>
+          </div>
+
+           <!-- Item ten -->
+           <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-ten">
+                What are the benefits of massage and bodywork?
+              </button>
+            </h2>
+            <div id="question-ten" class="accordion-collapse collapse" data-bs-parent="#questions">
+              <div class="accordion-body">
+                Massage and bodywork can help release chronic muscular tension and pain, improve circulation, increase joint flexibility, reduce mental and physical fatigue and stress, promote faster healing of injured muscular tissue, improve posture, and reduce blood pressure. Massage and bodywork is also known to promote better sleep, improve concentration, reduce anxiety and create an overall sense of well-being.
+              </div>
+            </div>
+          </div>
+
+           <!-- Item eleven -->
+           <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-eleven">
+                Are there any medical conditions that would make massage or bodywork inadvisable?
+              </button>
+            </h2>
+            <div id="question-eleven" class="accordion-collapse collapse" data-bs-parent="#questions">
+              <div class="accordion-body">
+                Yes. That's why it's imperative that, before you begin your session, the practitioner asks general health questions. It is very important that you inform the practitioner of any health problems or medications you are taking. If you are under a doctor's care, it is strongly advised that you receive a written recommendation for massage or bodywork prior to any session. Depending on the condition, approval from your doctor may be required.
+              </div>
+            </div>  
+
+             <!-- Item twelve -->
+           <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-twelve">
+                What form of payments do you accept?
+              </button>
+            </h2>
+            <div id="question-twelve" class="accordion-collapse collapse" data-bs-parent="#questions">
+              <div class="accordion-body">
+                **Payments**
+              </div>
+            </div>  
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section id="reviews">
+      <div class="container p-5">
+        <h2 class="text-center pb-5">Customer Reviews</h2>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-12">
+            <div class="card text-light bg-dark h-100">
+              <div class="card-body">
+                <h5 class="card-title text-center lead pb-2">REVIEW BY - Yelp</h5>
+                <h6 class="card-subtitle mb-2 text-center text-body-secondary">Derik M - 
+                  <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </span>
+                </h6>
+                <div class="review">
+                  <p class="card-text">
+                  I haven't had a massage since pre-Covid and my body was telling me it was time to return to massage. Gene at Body Elemental was recommended by a current client, and so glad he was.
+                  </p>
+                  <p class="card-text">
+                  Gene listened to what I was experiencing and was very educational in describing what might be going on. I asked for deep tissue massage and Gene was great at finding the right pressure for me working out the kinks, made a huge difference.
+                  </p>
+                  <p class="card-text">
+                    Would definitely recommend.
+                  </p>
+                </div>
+                <button type="button" class="btn btn-sm btn-info d-none">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card text-light bg-dark h-100">
+              <div class="card-body">
+                <h5 class="card-title text-center lead pb-2">REVIEW BY - Yelp</h5>
+                <h6 class="card-subtitle text-center mb-2 text-body-secondary">Ari Y -
+                  <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </span>
+                </h6>
+                <p class="review card-text">
+                  I woke up with a large knot in my lower back. I have never had a knot that actually caused me pain. This was ruining my entire week. I finally found someone that had availability. He was amazing. You can tell he is very knowledgeable and knew exactly what to do. I was shocked at how fast I felt better. I highly recommend him.
+                </p>
+                <button type="button" class="btn btn-sm btn-info d-none">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card text-light bg-dark h-100">
+              <div class="card-body">
+                <h5 class="card-title text-center lead pb-2">REVIEW BY - Yelp</h5>
+                <h6 class="card-subtitle text-center mb-2 text-body-secondary">JD D - 
+                  <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </span>
+                </h6>
+                <p class="review card-text">
+                  I just had a 90 min massage from Gene last night and it was amazing. He was referred to me by two close friends. I am very picky with massages and usually it is not strong enough. Gene was great. He listened to my concerns, checked in from time to time to make sure the pressure was ok and stretched me out when I needed it most. I was so relaxed after the massage and feel great this am. Thank you Gene! I will now start using you every two weeks.
+                </p>
+                <button type="button" class="btn btn-sm btn-info d-none">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="display-block text-center p-3">
+          <a class="lead" href="reviews.html">See More Customer Reviews</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer with Location, Phone and Map-->
+    <section class="p-5 bg-dark text-white text-center">
+      <div class="container">
+        <p class="lead">N 29th St Phoenix, AZ 85050  <a class="text-warning" href="tel:+1-913-269-3982" style="text-decoration: none">(913) 269-3982</a></p>
+        <div class="icons">
+          <a href="https://www.facebook.com/people/Body-Elemental/100048927734447/" class="p-2">
+            <i class="bi bi-facebook h4"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/gene-carpenter-0005a68" class="p-2">
+            <i class="bi bi-linkedin h4 text-light"></i>
+          </a>
+          <a href="https://www.yelp.com/biz/body-elemental-phoenix" class="p-2">
+            <i class="bi bi-yelp h4 text-light bg-danger"></i>
+          </a>
+        </div>
+        <div class="container p-5">
+          <!-- map -->
+          <img class="img-fluid" src="https://placehold.co/300" alt="...">
+        </div>
+        <!-- add icons -->
+        <!-- <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a> -->
+        <p class="py-2">Copyright &copy; 2024 Body Elemental</p>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="module" src="/js/script.js"></script>
+  </body>
+</html>
