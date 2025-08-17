@@ -9,12 +9,8 @@ main {
   min-height: calc(100vh - 600px);
 }
 
-footer {
-  height: 60px;
-}
-
-.customized {
-  background: linear-gradient(0.25turn, #55D5E2, #014CAD);
+.phone {
+  text-decoration: none;
 }
 
 .shape {
@@ -23,10 +19,6 @@ footer {
   padding: 20px;
   margin: auto;
   border-radius: 50%;
-}
-
-#services a {
-  text-decoration: none;
 }
 
 .showcase .container .header {
@@ -54,6 +46,15 @@ footer {
 .pinnacle {
   max-width: 450px;
 }
+
+#services a {
+  text-decoration: none;
+}
+
+#services a:hover h4, a:active h4{
+  background-color: steelblue;
+}
+
 
 
 

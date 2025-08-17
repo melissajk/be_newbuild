@@ -30,5 +30,12 @@ reviews.map((review) => {
   return review.innerHTML.length > 500 ? abbrevText(review) : review
 })
 
+// const services = [...document.getElementById('services').getElementsByTagName('h4')]
+// services.map((service) => {
+//   service.addEventListener('scroll', (event) => {
+//     console.log(event.target.classList())
+//   })
+// })
+
 
 
