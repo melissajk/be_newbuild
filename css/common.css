@@ -13,6 +13,10 @@ main {
   text-decoration: none;
 }
 
+.pinnacle {
+  max-width: 450px;
+}
+
 .shape {
   height: 250px;
   width: 250px;
@@ -41,10 +45,6 @@ main {
     grid-template-areas:
       "header header photo"
       "subheader subheader photo"
-}
-
-.pinnacle {
-  max-width: 450px;
 }
 
 #services a {
