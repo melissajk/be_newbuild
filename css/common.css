@@ -9,6 +9,11 @@ main {
   min-height: calc(100vh - 600px);
 }
 
+.carousel-inner {
+  background: no-repeat center / cover url(../img/body_elemental1.jpg) slategray; background-blend-mode: multiply;
+  height: 75vh;
+}
+
 .phone {
   text-decoration: none;
 }
@@ -19,6 +24,10 @@ main {
   padding: 20px;
   margin: auto;
   border-radius: 50%;
+}
+
+.showcase {
+  min-height: 50vh;
 }
 
 .showcase .container .header {
@@ -45,6 +54,10 @@ main {
 
 .pinnacle {
   max-width: 450px;
+}
+
+#services {
+  background: no-repeat center / cover  url(../img/deep_tissue.jpg) slategray; background-blend-mode: multiply;
 }
 
 #services a {
@@ -115,6 +128,11 @@ main {
       "subheader"
   }
 
+  .carousel-inner {
+    background: none;
+    height: auto;
+  }
+
 }
 
 @media screen and (max-width: 380px) {
@@ -125,6 +143,11 @@ main {
       "header"
       "photo"
       "subheader"
+  }
+
+  .carousel-inner {
+    background: none;
+    height: auto;
   }
 
    .pinnacle {
