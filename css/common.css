@@ -56,6 +56,20 @@ main {
       "subheader subheader photo"
 }
 
+
+.pinnacle {
+  max-width: 450px;
+}
+
+
+#map {
+  object-position: 50% 50%;
+}
+
+#services {
+  background: no-repeat center / cover  url(../img/deep_tissue.jpg) slategray; background-blend-mode: multiply;
+}
+
 #services a {
   text-decoration: none;
 }
@@ -148,6 +162,22 @@ main {
 
    .pinnacle {
     max-width: 250px;
+  }
+
+}
+
+@media (orientation: portrait) {
+  .showcase .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr min-content 1fr;
+    grid-template-areas: 
+      "header"
+      "photo"
+      "subheader"
+  }
+
+  .container {
+    text-align: center
   }
 
 }
